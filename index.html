@@ -6,6 +6,14 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>list</h1>
+    <div class="todo-container">
+        <h1>To-Do List</h1>
+        <div class="todo-input">
+            <input type="text" id="todo-input" placeholder="Add a new task...">
+            <button onclick="addTodo()">Add</button>
+        </div>
+        <ul id="todo-list" class="todo-list"></ul>
+    </div>
+    <script src="./index.js"></script>
 </body>
 </html>
