@@ -45,9 +45,15 @@ function renderTodos() {
         const todoItem = document.createElement('li');
         todoItem.className = 'todo-item';
         todoItem.innerHTML = `
+            <div class="all">
+            <div>
             <input type="checkbox" ${todo.completed ? 'checked' : ''} onclick="toggleComplete(${index})">
             <label style="text-decoration: ${todo.completed ? 'line-through' : 'none'}">${todo.text}</label>
+            </div>
+            <div>
             <button onclick="deleteTodo(${index})">Delete</button>
+            </div>
+            </div>
         `;
         todoList.appendChild(todoItem);
     });
