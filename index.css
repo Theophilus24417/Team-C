@@ -1,0 +1,64 @@
+body{
+    background-image: url(./img/i06ei9yk-720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.todo-container{
+    padding: 20px;
+    margin: auto;
+    position: relative;
+    background-color: #07ea80;
+    border-radius: 10px;
+    width: 500px;
+}
+.todo-container > h1{
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    text-align: center;
+}
+.todo-container > .todo-input{
+    padding: 0px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+.todo-container > .todo-input div input{
+    padding: 10px;
+    outline: none;
+    width: 380px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: none;
+}
+.todo-container > .todo-input div button{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 100px;
+    background-color: rgb(52, 51, 51);
+    color: #ffffff;
+}
+.todo-container > ul{
+    height: 300px;
+}
+.todo-container > ul li{
+    list-style-type: none;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.todo-container > ul li button{
+    background-color: red;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 25px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
